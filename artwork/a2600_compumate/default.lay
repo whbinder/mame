@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<!--
+license:CC0-1.0
+copyright-holders:
+-->
+<mamelayout version="2" >
+
+<element name="rectbutton" >
+	<rect state="1" >
+		<bounds x="0" y="0" width="1" height="1" />
+		<color red="0.441" green="0" blue="0" alpha="0.5" />
+	</rect>
+</element>
+
+<element name="keypadimage">
+	<image file="CompuMate Keyboard.png"/>
+</element>
+
+
+<view name="Keyboard with Screen" >
+
+<element ref="keypadimage"><bounds x="305" y="150" width="960" height="325" /></element>
+
+<screen index="0" ><bounds x="451" y="-360" width="646" height="484" /></screen>
+
+<element ref="rectbutton" inputtag="COL8" inputmask="0x1" ><bounds x="372"  y="186" width="56" height="42" /></element>
+<element ref="rectbutton" inputtag="COL3" inputmask="0x1" ><bounds x="453"  y="186" width="56" height="42" /></element>
+<element ref="rectbutton" inputtag="COL4" inputmask="0x1" ><bounds x="534"  y="186" width="56" height="42" /></element>
+<element ref="rectbutton" inputtag="COL9" inputmask="0x1" ><bounds x="615"  y="186" width="56" height="42" /></element>
+<element ref="rectbutton" inputtag="COL7" inputmask="0x1" ><bounds x="696"  y="186" width="56" height="42" /></element>
+<element ref="rectbutton" inputtag="COL1" inputmask="0x1" ><bounds x="777"  y="186" width="56" height="42" /></element>
+<element ref="rectbutton" inputtag="COL0" inputmask="0x1" ><bounds x="858"  y="186" width="56" height="42" /></element>
+<element ref="rectbutton" inputtag="COL2" inputmask="0x1" ><bounds x="939"  y="186" width="56" height="42" /></element>
+<element ref="rectbutton" inputtag="COL6" inputmask="0x1" ><bounds x="1020" y="186" width="56" height="42" /></element>
+<element ref="rectbutton" inputtag="COL5" inputmask="0x1" ><bounds x="1102" y="186" width="56" height="42" /></element>
+<element ref="rectbutton" inputtag="COL8" inputmask="0x2" ><bounds x="406"  y="261" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL3" inputmask="0x2" ><bounds x="487"  y="261" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL4" inputmask="0x2" ><bounds x="568"  y="261" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL9" inputmask="0x2" ><bounds x="649"  y="261" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL7" inputmask="0x2" ><bounds x="730"  y="261" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL1" inputmask="0x2" ><bounds x="811"  y="261" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL0" inputmask="0x2" ><bounds x="892"  y="261" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL2" inputmask="0x2" ><bounds x="973" y="261" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL6" inputmask="0x2" ><bounds x="1054" y="261" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL5" inputmask="0x2" ><bounds x="1136" y="261" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="CONTROLKEYS" inputmask="0x1" ><bounds x="322" y="335" width="77" height="43" /></element>
+<element ref="rectbutton" inputtag="COL8" inputmask="0x4" ><bounds x="423"  y="335" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL3" inputmask="0x4" ><bounds x="504"  y="335" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL4" inputmask="0x4" ><bounds x="585"  y="335" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL9" inputmask="0x4" ><bounds x="666"  y="335" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL7" inputmask="0x4" ><bounds x="747"  y="335" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL1" inputmask="0x4" ><bounds x="828"  y="335" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL0" inputmask="0x4" ><bounds x="909"  y="335" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL2" inputmask="0x4" ><bounds x="990" y="335" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL6" inputmask="0x4" ><bounds x="1071" y="335" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL5" inputmask="0x4" ><bounds x="1153" y="335" width="77" height="43" /></element>
+<element ref="rectbutton" inputtag="CONTROLKEYS" inputmask="0x2" ><bounds x="339" y="411" width="77" height="43" /></element>
+<element ref="rectbutton" inputtag="COL8" inputmask="0x8" ><bounds x="441"  y="411" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL3" inputmask="0x8" ><bounds x="522"  y="411" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL4" inputmask="0x8" ><bounds x="603"  y="411" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL9" inputmask="0x8" ><bounds x="684"  y="411" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL7" inputmask="0x8" ><bounds x="765"  y="411" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL1" inputmask="0x8" ><bounds x="846"  y="411" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL0" inputmask="0x8" ><bounds x="927" y="411" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL2" inputmask="0x8" ><bounds x="1008" y="411" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL6" inputmask="0x8" ><bounds x="1089" y="411" width="57" height="43" /></element>
+<element ref="rectbutton" inputtag="COL5" inputmask="0x8" ><bounds x="1170" y="411" width="77" height="43" /></element>
+</view>
+
+<view name="Keyboard Only" >
+<element ref="keypadimage"><bounds x="0" y="300" width="1586" height="537" /></element>
+<screen index="0" ><bounds x="0" y="0" width="0" height="0" /></screen>
+<element ref="rectbutton" inputtag="COL8" inputmask="0x1" ><bounds x="110"  y="358" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL3" inputmask="0x1" ><bounds x="244"  y="358" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL4" inputmask="0x1" ><bounds x="379"  y="358" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL9" inputmask="0x1" ><bounds x="512"  y="358" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL7" inputmask="0x1" ><bounds x="646"  y="358" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL1" inputmask="0x1" ><bounds x="779"  y="358" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL0" inputmask="0x1" ><bounds x="913"  y="358" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL2" inputmask="0x1" ><bounds x="1047" y="358" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL6" inputmask="0x1" ><bounds x="1181" y="358" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL5" inputmask="0x1" ><bounds x="1315" y="358" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL8" inputmask="0x2" ><bounds x="168"  y="483" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL3" inputmask="0x2" ><bounds x="302"  y="483" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL4" inputmask="0x2" ><bounds x="434"  y="483" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL9" inputmask="0x2" ><bounds x="569"  y="483" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL7" inputmask="0x2" ><bounds x="703"  y="483" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL1" inputmask="0x2" ><bounds x="838"  y="483" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL0" inputmask="0x2" ><bounds x="972"  y="483" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL2" inputmask="0x2" ><bounds x="1105" y="483" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL6" inputmask="0x2" ><bounds x="1239" y="483" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL5" inputmask="0x2" ><bounds x="1373" y="483" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="CONTROLKEYS" inputmask="0x1" ><bounds x="35" y="607" width="119" height="72" /></element>
+<element ref="rectbutton" inputtag="COL8" inputmask="0x4" ><bounds x="197"  y="607" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL3" inputmask="0x4" ><bounds x="331"  y="607" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL4" inputmask="0x4" ><bounds x="464"  y="607" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL9" inputmask="0x4" ><bounds x="598"  y="607" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL7" inputmask="0x4" ><bounds x="732"  y="607" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL1" inputmask="0x4" ><bounds x="866"  y="607" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL0" inputmask="0x4" ><bounds x="1000" y="607" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL2" inputmask="0x4" ><bounds x="1134" y="607" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL6" inputmask="0x4" ><bounds x="1268" y="607" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL5" inputmask="0x4" ><bounds x="1402" y="607" width="119" height="72" /></element>
+<element ref="rectbutton" inputtag="CONTROLKEYS" inputmask="0x2" ><bounds x="66" y="731" width="119" height="72" /></element>
+<element ref="rectbutton" inputtag="COL8" inputmask="0x8" ><bounds x="223"  y="731" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL3" inputmask="0x8" ><bounds x="357"  y="731" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL4" inputmask="0x8" ><bounds x="491"  y="731" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL9" inputmask="0x8" ><bounds x="625"  y="731" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL7" inputmask="0x8" ><bounds x="759"  y="731" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL1" inputmask="0x8" ><bounds x="893"  y="731" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL0" inputmask="0x8" ><bounds x="1026" y="731" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL2" inputmask="0x8" ><bounds x="1161" y="731" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL6" inputmask="0x8" ><bounds x="1295" y="731" width="96" height="72" /></element>
+<element ref="rectbutton" inputtag="COL5" inputmask="0x8" ><bounds x="1423" y="731" width="142" height="72" /></element>
+</view>
+
+</mamelayout>
+

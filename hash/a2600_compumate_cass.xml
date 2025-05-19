@@ -3,8 +3,49 @@
 
 <softwarelist name="a2600_compumate_cass" description="Compumate Cassettes" >
 
-<software name="cm" >
-<description>Spectravideo CompuMate Cassettes</description>
+<software name="pm" >
+<description>PictureMate</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
+
+<part name="full" interface="a2600_compumate_cass" >
+<feature name="part_id" value="PictureMate"/>
+<dataarea name="cass" size="15652340" >
+    <rom name="PictureMate.wav" size="15652340" crc="E17DDF6E" sha1="e5e0f946aa4c3040e0f8f7eda6792f53af4e2bda" />
+</dataarea>
+</part>
+</software>
+
+<software name="sm_a" cloneof="pm" >
+<description>SongMate (Side A)</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
+
+<part name="full" interface="a2600_compumate_cass" >
+<feature name="part_id" value="SongMate (Side A)"/>
+<dataarea name="cass" size="1479194" >
+    <rom name="SongMate (Side A).wav" size="1479194" crc="48C96781" sha1="7b785e03d3cce3ec1466b3391a37c8b62c73b8b7" />
+</dataarea>
+</part>
+</software>
+
+<software name="sm_b" cloneof="pm" >
+<description>SongMate (Side B)</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
+
+<part name="full" interface="a2600_compumate_cass" >
+<feature name="part_id" value="SongMate (Side B)"/>
+<dataarea name="cass" size="1775024" >
+    <rom name="SongMate [SF-984] (Side B).wav" size="1775024" crc="03C4B673" sha1="4b27bd03c3e48fdb7d51d3191723fd8b2b561f6f" />
+</dataarea>
+</part>
+
+</software>
+
+
+<software name="pm_01" cloneof="pm" >
+<description>PictureMate_01 - Whale</description>
 <year>1983</year>
 <publisher>SpectraVideo</publisher>
 
@@ -14,18 +55,41 @@
     <rom name="PictureMate_01.bin" size="0x804" crc="131c156c" sha1="4a4a6c8fc92ede427cb09d9ecd48f21faafde86c" />
 </dataarea>
 </part>
+
+</software>
+
+<software name="pm_02" cloneof="pm" >
+<description>PictureMate_02 - Alligator</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
+
 <part name="pm02" interface="a2600_compumate_cass" >
 <feature name="part_id" value="PictureMate_02"/>
 <dataarea name="cass" size="0x804" >
     <rom name="PictureMate_02.bin" size="0x804" crc="7476f75e" sha1="a17d95282072b26aefffff0d15324a16264544b6" />
 </dataarea>
 </part>
+
+</software>
+
+<software name="pm_03" cloneof="pm" >
+<description>PictureMate_03 - Tortoise</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
+
 <part name="pm03" interface="a2600_compumate_cass" >
 <feature name="part_id" value="PictureMate_03"/>
 <dataarea name="cass" size="0x804" >
    <rom name="PictureMate_03.bin" size="0x804" crc="d73a4d5e" sha1="3a748813a934f85d61cafa57158beb633234276f" />
 </dataarea>
 </part>
+
+</software>
+
+<software name="pm_04" cloneof="pm" >
+<description>PictureMate_04 - Lion</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
 
 <part name="pm04" interface="a2600_compumate_cass" >
 <feature name="part_id" value="PictureMate_04"/>
@@ -34,12 +98,26 @@
 </dataarea>
 </part>
 
+</software>
+
+<software name="pm_05" cloneof="pm" >
+<description>PictureMate_05 - Armadillo</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
+
 <part name="pm05" interface="a2600_compumate_cass" >
 <feature name="part_id" value="PictureMate_05"/>
 <dataarea name="cass" size="0x804" >
     <rom name="PictureMate_05.bin" size="0x804" crc="170723a2" sha1="31b3b3be2a5ce19a3a542e3385eb11aba6bec6a3" />
 </dataarea>
 </part>
+
+</software>
+
+<software name="pm_06" cloneof="pm" >
+<description>PictureMate_06 - Kangaroo</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
 
 <part name="pm06" interface="a2600_compumate_cass" >
 <feature name="part_id" value="PictureMate_06"/>
@@ -48,12 +126,26 @@
 </dataarea>
 </part>
 
+</software>
+
+<software name="pm_07" cloneof="pm" >
+<description>PictureMate_07 - Giraffe</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
+
 <part name="pm07" interface="a2600_compumate_cass" >
 <feature name="part_id" value="PictureMate_07"/>
 <dataarea name="cass" size="0x804" >
     <rom name="PictureMate_07.bin" size="0x804" crc="399750c7" sha1="e11ce2c23e24bdf046a0d0ad89f279abcb6746b5" />
 </dataarea>
 </part>
+
+</software>
+
+<software name="pm_08" cloneof="pm" >
+<description>PictureMate_08 - Ostrich</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
 
 <part name="pm08" interface="a2600_compumate_cass" >
 <feature name="part_id" value="PictureMate_08"/>
@@ -62,12 +154,26 @@
 </dataarea>
 </part>
 
+</software>
+
+<software name="pm_09" cloneof="pm" >
+<description>PictureMate_09 - Camel</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
+
 <part name="pm09" interface="a2600_compumate_cass" >
 <feature name="part_id" value="PictureMate_09"/>
 <dataarea name="cass" size="0x804" >
     <rom name="PictureMate_09.bin" size="0x804" crc="e959a4a2" sha1="8d51a5eb158520d17113829ef15a5c292a9ba331" />
 </dataarea>
 </part>
+
+</software>
+
+<software name="pm_10" cloneof="pm" >
+<description>PictureMate_10 - Ant Bear</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
 
 <part name="pm10" interface="a2600_compumate_cass" >
 <feature name="part_id" value="PictureMate_10"/>
@@ -76,12 +182,26 @@
 </dataarea>
 </part>
 
+</software>
+
+<software name="pm_11" cloneof="pm" >
+<description>PictureMate_11 - Porcupine</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
+
 <part name="pm11" interface="a2600_compumate_cass" >
 <feature name="part_id" value="PictureMate_11"/>
 <dataarea name="cass" size="0x804" >
     <rom name="PictureMate_11.bin" size="0x804" crc="ddfbe553" sha1="15279d58ee1e305abe8ab11f44ec9491837f5cf6" />
 </dataarea>
 </part>
+
+</software>
+
+<software name="pm_12" cloneof="pm" >
+<description>PictureMate_12 - Dolphin</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
 
 <part name="pm12" interface="a2600_compumate_cass" >
 <feature name="part_id" value="PictureMate_12"/>
@@ -90,12 +210,26 @@
 </dataarea>
 </part>
 
+</software>
+
+<software name="pm_13" cloneof="pm" >
+<description>PictureMate_13 - Elephant</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
+
 <part name="pm13" interface="a2600_compumate_cass" >
 <feature name="part_id" value="PictureMate_13"/>
 <dataarea name="cass" size="0x804" >
     <rom name="PictureMate_13.bin" size="0x804" crc="190a4cb5" sha1="ef572146680a4cf2f158c078f6fade5277fd5b7a" />
 </dataarea>
 </part>
+
+</software>
+
+<software name="pm_14" cloneof="pm" >
+<description>PictureMate_14 - Polar Bear</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
 
 <part name="pm14" interface="a2600_compumate_cass" >
 <feature name="part_id" value="PictureMate_14"/>
@@ -104,12 +238,26 @@
 </dataarea>
 </part>
 
+</software>
+
+<software name="pm_15" cloneof="pm" >
+<description>PictureMate_15 - Bat</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
+
 <part name="pm15" interface="a2600_compumate_cass" >
 <feature name="part_id" value="PictureMate_15"/>
 <dataarea name="cass" size="0x804" >
     <rom name="PictureMate_15.bin" size="0x804" crc="fa4a90ce" sha1="c499ad434c4eecd53958dd94efb1ceaf0f3022e6" />
 </dataarea>
 </part>
+
+</software>
+
+<software name="pm_16" cloneof="pm" >
+<description>PictureMate_16 - Pelican</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
 
 <part name="pm16" interface="a2600_compumate_cass" >
 <feature name="part_id" value="PictureMate_16"/>
@@ -118,12 +266,26 @@
 </dataarea>
 </part>
 
+</software>
+
+<software name="pm_17" cloneof="pm" >
+<description>PictureMate_17 - Leopard</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
+
 <part name="pm17" interface="a2600_compumate_cass" >
 <feature name="part_id" value="PictureMate_17"/>
 <dataarea name="cass" size="0x804" >
     <rom name="PictureMate_17.bin" size="0x804" crc="1653d348" sha1="a52351e989b417ddcc5e0ec128f1291eee46c9b4" />
 </dataarea>
 </part>
+
+</software>
+
+<software name="pm_18" cloneof="pm" >
+<description>PictureMate_18 - Penguin</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
 
 <part name="pm18" interface="a2600_compumate_cass" >
 <feature name="part_id" value="PictureMate_18"/>
@@ -132,12 +294,26 @@
 </dataarea>
 </part>
 
+</software>
+
+<software name="pm_19" cloneof="pm" >
+<description>PictureMate_19 - Seal</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
+
 <part name="pm19" interface="a2600_compumate_cass" >
 <feature name="part_id" value="PictureMate_19"/>
 <dataarea name="cass" size="0x804" >
     <rom name="PictureMate_19.bin" size="0x804" crc="74261026" sha1="cc2d310d97fb9688e7dfb36a24bc50689b2fe5d5" />
 </dataarea>
 </part>
+
+</software>
+
+<software name="pm_20" cloneof="pm" >
+<description>PictureMate_20 - Snake</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
 
 <part name="pm20" interface="a2600_compumate_cass" >
 <feature name="part_id" value="PictureMate_20"/>
@@ -146,12 +322,26 @@
 </dataarea>
 </part>
 
+</software>
+
+<software name="pm_21" cloneof="pm" >
+<description>PictureMate_21 - Octopus</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
+
 <part name="pm21" interface="a2600_compumate_cass" >
 <feature name="part_id" value="PictureMate_21"/>
 <dataarea name="cass" size="0x804" >
     <rom name="PictureMate_21.bin" size="0x804" crc="9c9e06fe" sha1="e32a282e8e35201a3ab12d76e4aae9932c4de1ac" />
 </dataarea>
 </part>
+
+</software>
+
+<software name="pm_22" cloneof="pm" >
+<description>PictureMate_22 - Human</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
 
 <part name="pm22" interface="a2600_compumate_cass" >
 <feature name="part_id" value="PictureMate_22"/>
@@ -160,6 +350,12 @@
 </dataarea>
 </part>
 
+</software>
+
+<software name="sm_a1" cloneof="pm" >
+<description>SongMate (Side A)_01 - Long, Long Ago</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
 
 <part name="sma1" interface="a2600_compumate_cass" >
 <feature name="part_id" value="SongMate_A1"/>
@@ -168,12 +364,26 @@
 </dataarea>
 </part>
 
+</software>
+
+<software name="sm_a2" cloneof="pm" >
+<description>SongMate (Side A)_02 - Long, Long Ago</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
+
 <part name="sma2" interface="a2600_compumate_cass" >
 <feature name="part_id" value="SongMate_A2"/>
 <dataarea name="cass" size="0x604" >
     <rom name="SongMate_A2.bin" size="0x604" crc="7901f7a6" sha1="6bb291217bfcca9e127ee65c6b22e624d1e9cf13" />
 </dataarea>
 </part>
+
+</software>
+
+<software name="sm_a3" cloneof="pm" >
+<description>SongMate (Side A)_03 - I Hear Thunder / We Wish You a Merry Christmas</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
 
 <part name="sma3" interface="a2600_compumate_cass" >
 <feature name="part_id" value="SongMate_A3"/>
@@ -182,12 +392,26 @@
 </dataarea>
 </part>
 
+</software>
+
+<software name="sm_a4" cloneof="pm" >
+<description>SongMate (Side A)_04 - Here We Go Round the Mulberry Bush / Gossey Gossey Gander</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
+
 <part name="sma4" interface="a2600_compumate_cass" >
 <feature name="part_id" value="SongMate_A4"/>
 <dataarea name="cass" size="0x604" >
     <rom name="SongMate_A4.bin" size="0x604" crc="eee54788" sha1="6cbef6a9f325e8e2a0f3eac4031acb4fed3555d9" />
 </dataarea>
 </part>
+
+</software>
+
+<software name="sm_a5" cloneof="pm" >
+<description>SongMate (Side A)_05 - Oh Susanna / Cradle Song</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
 
 <part name="sma5" interface="a2600_compumate_cass" >
 <feature name="part_id" value="SongMate_A5"/>
@@ -196,12 +420,26 @@
 </dataarea>
 </part>
 
+</software>
+
+<software name="sm_b1" cloneof="pm" >
+<description>SongMate (Side B)_01 - Morning / The Harebell</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
+
 <part name="smb1" interface="a2600_compumate_cass" >
 <feature name="part_id" value="SongMate_B1"/>
 <dataarea name="cass" size="0x604" >
     <rom name="SongMate_B1.bin" size="0x604" crc="c84b2583" sha1="d6da52e998918c3c658cb44f9156026ad6b872c3" />
 </dataarea>
 </part>
+
+</software>
+
+<software name="sm_b2" cloneof="pm" >
+<description>SongMate (Side B)_02 - Old Folks and Home / Home Sweet Home</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
 
 <part name="smb2" interface="a2600_compumate_cass" >
 <feature name="part_id" value="SongMate_B2"/>
@@ -210,12 +448,26 @@
 </dataarea>
 </part>
 
+</software>
+
+<software name="sm_b3" cloneof="pm" >
+<description>SongMate (Side B)_03 - Little Sailors / Minuet</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
+
 <part name="smb3" interface="a2600_compumate_cass" >
 <feature name="part_id" value="SongMate_B3"/>
 <dataarea name="cass" size="0x604" >
     <rom name="SongMate_B3.bin" size="0x604" crc="bd7e9b11" sha1="e7d090d523890b8db66fc91c046753f706e775b5" />
 </dataarea>
 </part>
+
+</software>
+
+<software name="sm_b4" cloneof="pm" >
+<description>SongMate (Side B)_04 - Christmas Melody / The Old Man</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
 
 <part name="smb4" interface="a2600_compumate_cass" >
 <feature name="part_id" value="SongMate_B4"/>
@@ -224,6 +476,13 @@
 </dataarea>
 </part>
 
+</software>
+
+<software name="sm_b5" cloneof="pm" >
+<description>SongMate (Side B)_05 - At the Pond / The Animals Went in Two by Two</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
+
 <part name="smb5" interface="a2600_compumate_cass" >
 <feature name="part_id" value="SongMate_B5"/>
 <dataarea name="cass" size="0x604" >
@@ -231,13 +490,20 @@
 </dataarea>
 </part>
 
+</software>
+
+<software name="sm_b6" cloneof="pm" >
+<description>SongMate (Side B)_06 - The First Noel / Cradle Song</description>
+<year>1983</year>
+<publisher>SpectraVideo</publisher>
+
 <part name="smb6" interface="a2600_compumate_cass" >
 <feature name="part_id" value="SongMate_B6"/>
 <dataarea name="cass" size="0x604" >
     <rom name="SongMate_B6.bin" size="0x604" crc="2043ba93" sha1="688b81f65bf77ae7adfefee3f56b1bd9bbe7c3b1" />
 </dataarea>
 </part>
-</software>
 
+</software>
 </softwarelist>
 
